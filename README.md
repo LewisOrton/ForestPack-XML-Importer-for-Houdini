@@ -1,6 +1,6 @@
-# Forest Pack XML Importer for Houdini
+# ForestPack XML Importer for Houdini
 
-This repository provides two small utilities (Python SOP + VEX snippets) to help bring **Forest Pack Pro** scatter data (from 3ds Max) into Houdini for further look-dev, lighting, or simulation work.
+This repository provides two small utilities (Python SOP + VEX snippets) to help bring **ForestPack** scatter data (from 3ds Max) into Houdini for further look-dev, lighting, or simulation work.
 
 ---
 
@@ -29,9 +29,6 @@ This repository provides two small utilities (Python SOP + VEX snippets) to help
 3. Paste the [python_sop.py](./python_sop.py) code into the Python SOP.  
 4. Point the `xmlfile` parameter to your Forest Pack XML file.  
 5. Cook the node. You will get one point per scattered item, with the attributes above.
-
-> The `finalTM` attribute is stored as a 16-float tuple.  
-> You can convert it to a matrix in VEX if you want to instance geometry.
 
 ---
 
